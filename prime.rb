@@ -1,8 +1,11 @@
-def prime?(numbers)
-  numbers.each{ |number|
-if number.prime? == 2
-  return true
-end
-  }
-  false
+def prime?(number)
+  if number <= 0 || number == 1
+    return false
+  end
+#   number.each{ ||
+# if number.prime? == 2
+#   return true
+# end
+#   }
+
 end
